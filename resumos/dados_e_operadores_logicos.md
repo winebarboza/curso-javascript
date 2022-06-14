@@ -74,4 +74,13 @@ console.log("Matheus" != "Matheus");
 console.log("3" === 3);
 console.log(4 === 4)
 ```
- 
+
+### Booleans: Operadores Lógicos
+
+- && and (as duas são verdadeiras)
+- || or (basta uma ser verdadeira pra ser verdadeira)
+- ! NOT (Inverte os valores, se true vira false)
+
+## Empty Values
+- palavras reservadas: null e Undefined;
+- o JS basicamente quer dizer que os valores não existem.
