@@ -1,0 +1,13 @@
+# O que são variáveis?
+#### Espaços na memória onde são armazenados valores.
+```javascript
+let laranjas = 5;
+```
+
+podemos criar expressões com os valores salvos.
+```javascript
+let laranjas = 5;
+console.log(laranjas*laranjas);
+```
+```javascript
+console.log("nós temos ${laranjas} laranjas");
