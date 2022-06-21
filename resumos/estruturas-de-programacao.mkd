@@ -38,3 +38,15 @@ let casa3 = "vermelha";
 let meuPrimeiroNome = "Joaquim Fernando";
 ```
 ------------
+
+# Palavras reservadas da linguagem JavaScript
+- algumas palavras não podem ser utilizadas na nomeação das variáveis por serem reservadas da linguagem JavaScript, no link abaixo tem um artigo sobre o tema escrito pelo professor Celso Kitamura.
+
+[Palavras reservadas do JavaScript - Celso Kitamura](https://celsokitamura.com.br/palavras-reservadas-do-javascript/ "Palavras reservadas do JavaScript - Celso Kitamura")
+
+
+## O ambiente do JavaScript
+
+------------
+
+# As estruturas das funções
