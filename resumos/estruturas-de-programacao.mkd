@@ -21,3 +21,20 @@ console.log(quadrado*(triangulo+retangulo));
 - O Var é uma variável global, ela funciona em qualquer parte do programa.
 - o Let só funciona naquele bloco onde você o declarou.
 - const para variáveis que não terão seus valores alterados e assim como let o const só funciona no escopo onde foi declarado.
+
+## Convenção nos nomes das variáveis
+- Não pode começar com um número, exemplo:
+```javascript
+let 2nome = "Maria Antonia";
+```
+- Não pode terminar com um número:
+```javascript
+let casa3 = "vermelha";
+```
+- Pode ter $ ou _ mas não pode ter outros caracteres especiais.
+- Podemos iniciar com letra maiúscula.
+- CamelCase também pode ser utilizado. 
+```javascript
+let meuPrimeiroNome = "Joaquim Fernando";
+```
+------------
