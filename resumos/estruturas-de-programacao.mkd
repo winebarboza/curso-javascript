@@ -47,6 +47,7 @@ let meuPrimeiroNome = "Joaquim Fernando";
 
 ## O ambiente do JavaScript
 
+
 ------------
 
 # As estruturas das funções
