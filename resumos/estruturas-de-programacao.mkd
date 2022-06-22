@@ -122,3 +122,30 @@ if(idade>=18){
 ```
 
 O bloco acima confere se a variável **idade** possui o valor Number maior ou igual a 18, se tiver, o acesso do user ao programa é liberado.
+
+## Estrutura condicional: else
+
+- Podemos executar um outro bloco de código, caso a instrução do if não seja atendida, ou seja, SE não executar o bloco **if** execute o bloco **else**.
+```javascript
+let idade = 14
+if(idade >=18){
+	console.log("Acesso liberado!")
+} else{
+	console.log("Acesso negado.")
+}
+```
+## Estrutura condicional: else if
+
+Ainda podemos encadear mais condições com else if, antes de executar o else direto podemos verificar outras condições.
+
+```javascript
+let codigoProfessor = 12345
+let materia = "Matemática"
+if(codigoProfessor==12345 && materia=="Matemática"){
+	console.log("Acesso permitido")
+} else if(codigoProfessor==12345 || materia=="Matemática"){
+	console.log("Acesso permitido")
+}else{
+	console.log("Acesso negado.")
+}
+```
