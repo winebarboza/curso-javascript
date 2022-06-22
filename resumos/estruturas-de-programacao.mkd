@@ -11,8 +11,9 @@ console.log(laranjas*laranjas);
 ```
 ```javascript
 console.log("nós temos ${laranjas} laranjas");
-
+```
 #### Um let pode definir várias variáveis também:
+
 ```javascript
 let quadrado = 4, triangulo = 3, retangulo = 4;
 console.log(quadrado*(triangulo+retangulo));
