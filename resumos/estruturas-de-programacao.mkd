@@ -149,3 +149,18 @@ if(codigoProfessor==12345 && materia=="Matemática"){
 	console.log("Acesso negado.")
 }
 ```
+# O que são estruturas de repetição?
+
+A ideia é repetir uma ação até que uma condição seja alcançada, ao invés de executar um código várias vezes criamos um statement que fará uma checagem em cada loop.
+[Estruturas de Repetição - Pod Programar](https://podprogramar.com.br/logica-de-programacao-estruturas-de-repeticao/ "Estruturas de Repetição - Pod Programar")
+
+## Estrutura de repetição While
+
+Fará uma função até que uma condição seja atingida, precisamos definir um fim para que não resulte em um loop infinito. 
+``` javascript
+let x = 10
+while(x>0){
+    console.log(x);
+    x = x-1;
+}
+```
