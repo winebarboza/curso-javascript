@@ -198,3 +198,8 @@ for(let numero = 2; numero<100; numero = numero * 2){
     console.log (x)
  }
  ```
+ # Utilizando continue
+
+ Dependendo da nossa lógica, podemos pular o resto da execução do loop.
+ 
+ 
