@@ -202,7 +202,7 @@ for(let numero = 2; numero<100; numero = numero * 2){
 
  Dependendo da nossa lógica, podemos pular o resto da execução do loop.
 
- # incrementação resumida
+ # Incrementação resumida
 
  - ++ acrescenta um número para a variável
  - -- diminui um número da variável
@@ -227,6 +227,25 @@ switch nome{
 		break;
 }
 ```
+------------
+------------
+# Como fazer comentários no código
+- utilizados para explicar o que acontece no código.
+- também utilizado para saber se o código está afetando o sistema.
+- completamente ignorado pelo interpretador de código.
+- pode ser uma linha ou multi-linha.
+
+```javascript
+//comentário de uma linha
+
+/*
+comentário
+com mais
+de uma
+linha
+*/
+```
+- é uma má prática deixar comentários sem função nenhuma no código.
 
  
  
