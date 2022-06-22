@@ -101,3 +101,8 @@ let arredondarNumeroCima = Math.ceil(5.654652);
 console.log(arredondarNumeroCima);
 ```
 - Essa função é muito utilizada.
+
+# Função built in: console.log
+
+- Exibe uma mensagem na tela, que é o argumento que passamos.
+- Muito utilizada.
