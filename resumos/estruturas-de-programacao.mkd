@@ -164,3 +164,21 @@ while(x>0){
     x = x-1;
 }
 ```
+## Estrutura Do While
+
+- Método semelhante ao while mas a estrutura muda um pouco, quase não é utilizado.
+```javascript
+let x = 100;
+do{
+    console.log(x/2)
+    x = x - 5; 
+}while(x>=0)
+```
+## Estrutura for
+
+Semelhante ao While, porém amplamente utilizado e mais fácil de entender com a prática.
+```javascript
+for(let numero = 2; numero<100; numero = numero * 2){
+    console.log(`o número é ${numero}`);
+}
+
