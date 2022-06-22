@@ -181,4 +181,20 @@ Semelhante ao While, porém amplamente utilizado e mais fácil de entender com a
 for(let numero = 2; numero<100; numero = numero * 2){
     console.log(`o número é ${numero}`);
 }
+```
+# Utlizando o Break
 
+ Permite que o laço de repetição seja parado quando uma condição é atendida mesmo que não tenha seguido todo o fluxo.
+ ```javascript
+ let nome = "matheus";
+ for(x = 0; x < 10;x = x + 1){
+    if(x == 5){
+        let nome = "Wine";
+    }
+    if(x === 6 && nome == "Wine"){
+        console.log("chegou no 5 e o na Wine, pode parar.)"
+        Break;
+    } 
+    console.log (x)
+ }
+ ```
