@@ -110,3 +110,15 @@ console.log(arredondarNumeroCima);
 ------------
 # O que são estruturas de controle?
 - O programa é executado de cima para baixo, com as estruturas de controle podemos modelar o fluxo do programa, ou seja, dependendo de alguma ação do user o programa tomará um caminho diferente.
+link: [Estruturas de Controle - Devs Channnel](http://www.devschannel.com/logica-de-programacao/estruturas-de-controle "Estruturas de Controle - Devs Channnel")
+
+## Estrutura de controle: if
+> #### o programa executa um bloco de código SE algo acontecer.
+```javascript
+let idade = 20
+if(idade>=18){
+	console.log("acesso liberado!")
+}
+```
+
+O bloco acima confere se a variável **idade** possui o valor Number maior ou igual a 18, se tiver, o acesso do user ao programa é liberado.
