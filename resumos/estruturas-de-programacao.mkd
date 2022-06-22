@@ -54,3 +54,15 @@ let meuPrimeiroNome = "Joaquim Fernando";
 ------------
 
 # As estruturas das funções
+ - As funções são chamadas durante o programa.
+ - Chamamos uma função utilizando o nome dela e abrindo parênteses.
+
+```javascript
+nomeDaFuncao();
+```
+ - Também podemos inserir parâmetros, em algumas funções são obrigatórios.
+ - Basicamente são valores que podem mudar o resultado da função.
+
+ ```javascript
+nomeDaFuncao(parametro1,parametro2);
+```
