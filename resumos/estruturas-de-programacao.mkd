@@ -66,3 +66,38 @@ nomeDaFuncao();
  ```javascript
 nomeDaFuncao(parametro1,parametro2);
 ```
+------------
+# Função built in: prompt
+#### Recebe um input do usuário do sistema e pode guardar esse valor.
+```javascript
+let idade = prompt('qual a sua idade?');
+console.log(idade);
+```
+- Essa função é pouco utilizada.
+
+# Função built in: alert
+- Exibe uma mensagem na tela do usuário.
+```javascript
+alert('Veja esta mensagem').
+```
+- Essa função é pouco utilizada.
+
+# Função built in: Math
+- Função usada para expressões e cálculos matemáticos.
+```javascript
+let maiorNumero = Math.max(1,2,3,4,5);
+console.log(maiorNumero);
+```
+```javascript
+let menorNumero = Math.min(1,2,3,4,5);
+console.log(menorNumero);
+```
+```javascript
+let arredondarNumero = Math.round(5.654652);
+console.log(arredondarNumero);
+```
+```javascript
+let arredondarNumeroCima = Math.ceil(5.654652);
+console.log(arredondarNumeroCima);
+```
+- Essa função é muito utilizada.
