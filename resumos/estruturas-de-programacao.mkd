@@ -47,8 +47,10 @@ let meuPrimeiroNome = "Joaquim Fernando";
 
 
 ## O ambiente do JavaScript
-
-
+ - Quando qualquer programa é iniciado, um ambiente é criado.
+ - Esse ambiente contém funções nativas da linguagem.
+ - Funções são blocos de códigos que nos etornam um valor ou uma ação.
+ 
 ------------
 
 # As estruturas das funções
