@@ -106,3 +106,7 @@ console.log(arredondarNumeroCima);
 
 - Exibe uma mensagem na tela, que é o argumento que passamos.
 - Muito utilizada.
+
+------------
+# O que são estruturas de controle?
+- O programa é executado de cima para baixo, com as estruturas de controle podemos modelar o fluxo do programa, ou seja, dependendo de alguma ação do user o programa tomará um caminho diferente.
