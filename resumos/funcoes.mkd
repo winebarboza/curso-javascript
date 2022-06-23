@@ -45,3 +45,16 @@ Em outras palavras, o que determina quais são os dados que podem ser acessados 
 
 Para entender mais, link:
 [Escopos em JavaScript - Importante entender](http://imasters.com.br/desenvolvimento/escopos-em-javascript "Escopos em JavaScript - Importante entender")
+
+## Escopo aninhado (Nested Scopes)
+- Por causa da possibilidade de criar um escopo, podemos ter mais níveis de escopos.
+
+# Arrow Functions
+
+- Uma outra forma de escrever funções
+- Bem utilizadas nos frameworks modernos
+```javascript
+const parOuImpar = (n) =>{ //não tem nome, é atrelada a uma variável, não necessita do function
+    return n % 2;
+}
+console.log(parOuImpar(3));
