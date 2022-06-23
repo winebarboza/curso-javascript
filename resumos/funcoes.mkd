@@ -1,0 +1,4 @@
+# O que são funções?
+- São estruturas de código menores que são reaproveitadas durante a execução/construção de um programa.
+- Principal objetivo: poupar repetição de código;
+- Podem ser consideradas "subprogramas";
