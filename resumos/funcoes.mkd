@@ -26,4 +26,22 @@ const textoNoConsole = function(){
 }
 textoNoConsole();
 ``` 
-## Definindo uma função: Prática
+## Escopo de uma função
+- O que acontece dentro de uma função fica separado do escopo global. 
+```javascript
+let n = 10;
+const numero = function(){
+    let n = 10;
+    console.log(n);
+}
+console.log(n);
+```
+
+## Escopos
+
+Escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código.
+
+Em outras palavras, o que determina quais são os dados que podem ser acessados em uma determinada parte do código é o escopo.
+
+Para entender mais, link:
+[Escopos em JavaScript - Importante entender](http://imasters.com.br/desenvolvimento/escopos-em-javascript "Escopos em JavaScript - Importante entender")
