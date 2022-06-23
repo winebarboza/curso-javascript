@@ -2,3 +2,28 @@
 - São estruturas de código menores que são reaproveitadas durante a execução/construção de um programa.
 - Principal objetivo: poupar repetição de código;
 - Podem ser consideradas "subprogramas";
+
+## Definindo uma função: teoria
+- Uma função tem uma estrutura um pouco mais complexa.
+- Devemos declarar a função sempre com a palavra function;
+- uma função deve ter um nome;
+- Pode conter argumentos/parâmetros, definidos entre();
+- O corpo da função é definido entre {};
+- Geralmente uma função retorna um valor.
+- é possível declarar funções em **variáveis**.
+```javascript
+//definindo uma função
+function escreverNoConsole(){
+    console.log("escrevendo no console!");
+}
+escreverNoConsole();
+```
+Declarando função em variável:
+```javascript
+//função anônima
+const textoNoConsole = function(){
+    console.log("Texto no conosle");
+}
+textoNoConsole();
+``` 
+## Definindo uma função: Prática
