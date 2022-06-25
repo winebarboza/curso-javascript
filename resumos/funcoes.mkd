@@ -91,3 +91,5 @@ function potencia (base, expoente=2){
 
 console.log(potencia(2));
 ```
+# Closure
+Uma função que se lembra do ambiente em que ela foi criada.
