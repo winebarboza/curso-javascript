@@ -58,3 +58,7 @@ const parOuImpar = (n) =>{ //não tem nome, é atrelada a uma variável, não ne
     return n % 2;
 }
 console.log(parOuImpar(3));
+
+## Posso substituir todas as **function** por **arrow function**?
+ Link: [Tudo sobre Arrow Functions](https://blog.da2k.com.br/2019/01/07/javascript-tudo-sobre-arrow-functions/ "Tudo sobre Arrow Functions")
+ 
