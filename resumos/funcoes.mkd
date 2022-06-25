@@ -62,3 +62,14 @@ console.log(parOuImpar(3));
 ## Posso substituir todas as **function** por **arrow function**?
  Link: [Tudo sobre Arrow Functions](https://blog.da2k.com.br/2019/01/07/javascript-tudo-sobre-arrow-functions/ "Tudo sobre Arrow Functions")
 
+# Argumentos opcionais na função
+```javascript
+function saudacoes(nome, idade){
+  if(idade === undefined){
+    console.log("Olá "+ nome +", seja bem vindo!")
+  }else{
+    console.log("Olá "+ nome +", seja bem vindo!, você tem "+idade+" anos.")
+  }
+}
+saudacoes("wine")
+```
