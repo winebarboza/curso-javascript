@@ -73,3 +73,21 @@ function saudacoes(nome, idade){
 }
 saudacoes("wine")
 ```
+## Argumentos com valor Default
+#### Argumentos com valores pré-definidos pelo desenvolvedor.
+Função sem valor default:
+```javascript
+function potencia (base, expoente){
+    return Math.pow(base, expoente);
+}
+potencia(2,2);
+```
+Função com valor default definido para o expoente, assim, se o user não digitar
+o expoente, ele automaticamente será considerado com o valor 2.
+```javascript
+function potencia (base, expoente=2){
+    return Math.pow(base, expoente);
+}
+
+console.log(potencia(2));
+```
