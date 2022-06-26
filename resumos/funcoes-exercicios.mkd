@@ -53,3 +53,10 @@ function tipoDeDado(dado){
 }
 tipoDeDado(true);
 ```
+#### Escreva uma função que receba um númerop negativo e retorne um número positivo. Dica: Math.abs.
+```javascript
+function conversor(y){
+  return Math.abs(y);
+}
+console.log(conversor(-7));
+```
