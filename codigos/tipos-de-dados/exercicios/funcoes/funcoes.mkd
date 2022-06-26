@@ -1,0 +1,55 @@
+#### Monte uma função que escreve Hello World no console.
+```javascript
+function helloWorld(){
+  console.log("Hello World!");
+}
+helloWorld()
+```
+#### Escreva uma função que receba o parâmetro idade e  imprima esta mensagem no console com template literals dizendo "você tem x anos".
+```javascript
+function saudacao(nome,idade){
+
+  console.log(`Olá ${nome}, você tem ${idade} anos.`)
+
+}
+saudacao("Wine", 22)
+```
+#### Escreva uma função que some dois números e retorne eles e depois imprima este retorno.
+
+```javascript
+function soma(x,y){
+  return x + y;
+}
+console.log(soma(1,2))
+```
+#### Escreva uma função que retorne um número aleatório, o número máximo retornado deve ser passado via parâmetro.
+
+#### Escreva uma função que recebe a idade de uma pessoa.
+- se ela tem mais que 18 anos ela pode entrar na auto escola, imprima uma mensagem informando isso;
+- se ela tem menos ela não pode, imprima outra mensagem com este aviso.
+- execute a função nos dois casos.
+```javascript
+function idadeUser(idade){
+
+if(idade >= 18){
+  console.log("Você tem mais de 18 anos, pode fazer aulas.")
+}else{
+  console.log("Você tem menos de 18 anos, ainda não pode fazer aulas.")
+}
+
+}
+idadeUser(19)
+```
+#### Escreva uma função que detecta o tipo de dado passado.
+```javascript
+function tipoDeDado(dado){
+  if(typeof dado === 'string'){
+    console.log("tipo de dado é string.")
+  }else if(typeof dado ==='number'){
+        console.log("tipo de dado é number.")
+  }else{
+    console.log("tipo de dado é boolean.")
+  }  
+}
+tipoDeDado(true);
+```
