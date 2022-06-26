@@ -92,4 +92,8 @@ function potencia (base, expoente=2){
 console.log(potencia(2));
 ```
 # Closure
-Uma função que se lembra do ambiente em que ela foi criada.
+#### Uma função que se lembra do ambiente em que ela foi criada.
+
+**Segunda definição:**Closure é quando uma função lembra do seu escopo léxico, mesmo quando a função é executada fora desse escopo léxico.
+**Código fonte:** Funções definidas dentro de outra função.
+Link: [Closure - Código Fonte](https://youtu.be/8WzqEPzaOfE "Closure - Código Fonte")
