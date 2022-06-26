@@ -53,10 +53,41 @@ function tipoDeDado(dado){
 }
 tipoDeDado(true);
 ```
-#### Escreva uma função que receba um númerop negativo e retorne um número positivo. Dica: Math.abs.
+#### Escreva uma função que receba um número negativo e retorne um número positivo. Dica: Math.abs.
 ```javascript
 function conversor(y){
   return Math.abs(y);
 }
 console.log(conversor(-7));
+```
+#### crie uma função que recebe uma string e avise ao user se a string está muito longa ou muito curta.
+```javascript
+function contador(y){
+  stringTeste = y.length;
+  if(stringTeste>10){
+    console.log("cuidado, texto comprido.")
+  }else{
+    console.log("ãhh, texto muito curto.")
+  }
+}
+contador("d")//ãhh, texto muito curto.
+contador("A barata diz que tem, 7 saias de filó")//cuidado, texto comprido.
+```
+#### Escreva uma função que receba dois números, o primeiro é a base o segundo é a potência e retorne o resultado da operação.
+```javascript
+function potencia(x,y){
+ return Math.pow(x,y);
+}
+console.log(potencia(2,2))
+```
+#### escreva uma função que recebe um número e o decrementa de 1 em 1 com loop, além disso imprima somente números pares no console.
+```javascript
+function numero(num){
+  for(x = num ; x = 0; x--){
+    if(x % 2 == 0){
+      console.log(x);
+    }
+  }
+}
+numero(2);
 ```
