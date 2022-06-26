@@ -97,3 +97,7 @@ console.log(potencia(2));
 **Segunda definição:** Closure é quando uma função lembra do seu escopo léxico, mesmo quando a função é executada fora desse escopo léxico.
 **Código fonte:** Funções definidas dentro de outra função.
 Link: [Closure - Código Fonte](https://youtu.be/8WzqEPzaOfE "Closure - Código Fonte")
+# Recursion
+#### Uma funcionalidade que perimite uma função se chamar novamente;
+- isso pode ser um problema caso a função se chame muitas vezes.
+link: [Recursion - Javascript](https://www.programiz.com/javascript/recursion "Recursion - Javascript")
