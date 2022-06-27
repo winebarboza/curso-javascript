@@ -73,3 +73,25 @@ Métodos são propriedades que funcionam como funções, strings e arrays conté
 let marca = "nike";
 console.log(marca.toUpperCase())
 ```
+# Objetos
+- Uma coleção de propriedades, parecidos com arrays.
+- Podemos acessar estas propriedades.
+```javascript
+let pessoa ={
+    nome: "Matheus",
+    profissao: "Programador",
+    idade: 28,
+}
+console.log(pessoa.nome);
+console.log(pessoa.idade);
+```
+```javascript
+let carro ={
+  cor: "vermelho",
+  bancos: 5,
+  rodas: 4,
+  marca: "Kia",
+  modelo: "Cerato"
+}
+console.log(carro.cor);
+```
