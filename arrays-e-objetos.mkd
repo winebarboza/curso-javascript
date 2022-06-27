@@ -1,0 +1,68 @@
+# O que são Arrays?
+- Possibilidade de adicionar um conjunto de valores a uma variável;
+- O Array deve ser escrito entre colchetes, separando valores por vírgula.
+```javascript
+let numeros = [1,2,3,4,5,6];
+let usuario = ["Matheus", 25, true]
+```
+- Podemos acessar um array pelo seu índice, por exemplo: usuario[1]
+- Lembrando que o primeiro índice é 0.
+```javascript
+let colaboradoresSenap = ["Matheus","Wine","Emanoel", "Thaís", "Erilene", "Janaína", "Jeff", "Gleyson", "Ian", "Gisele"];
+console.log(usuarios[])
+```
+# Propriedades
+- Informações que podem ser verificadas de um valor;
+- Quase todos os valores de javascript tem propriedades, menos null e undefined.
+- Podemos acessar as propriedades de duas maneiras.
+
+```javascript
+let numeros =[1,2,3,4];
+console.log(numeros.length);
+//a propriedade length para obter o tamanho de uma String ou de um array.
+```
+#### Vejamos alguns exemplos de métodos e propriedades bastante úteis quando estamos desenvolvendo programas em Javascript.
+#### Vejamos alguns exemplos de métodos e propriedades bastante úteis quando estamos desenvolvendo programas em Javascript.
+
+------------
+Arrays são objetos de alto nível que descrevem listas de valores. Os arrays são capazes de armazenar diversos valores indexados por números inteiros.
+Por exemplo, o array abaixo armazena uma lista de carros:
+```javascript
+var carros = [“Gol”, “Uno”, “Agile”];
+```
+Para acessar elementos de um array, é usada a sintaxe abaixo:
+```javascript
+var gol = carros[0];
+// O valor de gol será “Gol”, o primeiro valor do array. 
+```
+Para mudar o valor de uma determinada posição de um array, usamos:
+```javascript
+carros[2] = “Spin”;
+// O array agora será:  [“Gol”, “Uno”, “Spin”];
+```
+Para saber o tamanho, isto é, a quantidade de elementos de um array, pode ser usada a propriedade ‘length’: 
+```javascript
+let carros = "oiii";
+var tamanho = carros.length;
+console.log(tamanho);
+```
+Caso precise ordenar os elementos de um array, pode ser usado o método ‘sort’:
+```javascript
+carros.sort();
+// O resultado será [“Agile”, “Gol”, “Uno”]
+```
+```javascript
+[2, 1, 8, 5].sort()
+// O resultado será [1, 2, 5, 8]
+```
+O método push é usado para incluir um elemento em um array. Ele sempre inclui o elemento no final do array:
+```javascript
+carros.push(“Fusca”);
+// o  array carros agora tem os seguintes valores  [“Gol”, “Uno”, “Agile”, “Fusca”]
+```
+Já o método pop apaga o último elemento do array:
+```javascript
+var fusca = carros.pop();
+// O array carros agora virou [“Gol”, “Uno”, “Agile”]
+```
+Para consultar depois, link: [Métodos e Propriedades -Kenzie Academy](https://kenzie.com.br/blog/variaveis-javascript/#:~:text=Vejamos%20alguns%20exemplos%20de%20m%C3%A9todos%20e%20propriedades%20bastante,usada%20a%20propriedade%20%E2%80%98length%E2%80%99%3A%20var%20tamanho%20%3D%20carros.length%3B "Métodos e Propriedades -Kenzie Academy")
