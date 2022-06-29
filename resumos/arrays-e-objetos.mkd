@@ -170,3 +170,13 @@ console.log(a)//["Wine", "Matheus", "Joel"]
 a.push("Pedro")//Adiciona um valor no fim do array
 console.log(a)//["Wine", "Matheus", "Joel", "Pedro"]
 ```
+# Métodos de Arrays: shift e unshift
+- shift remove o primeiro elemento de array
+- unshift adiciona o primeiro elemento de array
+```javascript
+let a = ["Wine","Matheus","Joel", "maria"]
+a.shift() //Exclui primeiro valor de array
+console.log(a)//["Matheus", "Joel", "maria"]
+a.unshift("Pedro")//Adiciona um valor no início do array
+console.log(a)//["Pedro", "Matheus", "Joel", "maria"...]
+```
