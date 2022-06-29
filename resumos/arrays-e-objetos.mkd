@@ -155,3 +155,9 @@ console.log(pessoa2);// Aparecerá {nome: "Matheus"}
 
 - Uma técnica muito utilizada na programação é o loop em arrays
 - Como é uma lista com muitos valores, muitas vezes precisamos ver cada um deles.
+```javascript
+let a = ["Wine","Matheus","Joel", "maria"]
+for(i=0;i<=a.length;i++){
+  console.log(a[i])
+} //Acessando cada elemento de um array via loop for
+```
