@@ -22,7 +22,6 @@ console.log(numeros.length);
 //a propriedade length para obter o tamanho de uma String ou de um array.
 ```
 #### Vejamos alguns exemplos de métodos e propriedades bastante úteis quando estamos desenvolvendo programas em Javascript.
-#### Vejamos alguns exemplos de métodos e propriedades bastante úteis quando estamos desenvolvendo programas em Javascript.
 
 ------------
 Arrays são objetos de alto nível que descrevem listas de valores. Os arrays são capazes de armazenar diversos valores indexados por números inteiros.
@@ -66,3 +65,69 @@ var fusca = carros.pop();
 // O array carros agora virou [“Gol”, “Uno”, “Agile”]
 ```
 Para consultar depois, link: [Métodos e Propriedades -Kenzie Academy](https://kenzie.com.br/blog/variaveis-javascript/#:~:text=Vejamos%20alguns%20exemplos%20de%20m%C3%A9todos%20e%20propriedades%20bastante,usada%20a%20propriedade%20%E2%80%98length%E2%80%99%3A%20var%20tamanho%20%3D%20carros.length%3B "Métodos e Propriedades -Kenzie Academy")
+
+# Métodos
+
+Métodos são propriedades que funcionam como funções, strings e arrays contém métodos.
+```javascript
+let marca = "nike";
+console.log(marca.toUpperCase())
+```
+# Objetos
+- Uma coleção de propriedades, parecidos com arrays.
+- Podemos acessar estas propriedades.
+```javascript
+let pessoa ={
+    nome: "Matheus",
+    profissao: "Programador",
+    idade: 28,
+}
+console.log(pessoa.nome);
+console.log(pessoa.idade);
+```
+```javascript
+let carro ={
+  cor: "vermelho",
+  bancos: 5,
+  rodas: 4,
+  marca: "Kia",
+  modelo: "Cerato"
+}
+console.log(carro.cor);
+```
+## Adicionando e deletando propriedades de um objeto
+[Deletando propriedades de objeto - Matheus Battisti](https://www.horadecodar.com.br/2020/12/11/remover-propriedade-de-objeto-javascript/ "Deletando propriedades de objeto - Matheus Battisti")
+
+Deletando propriedade **cor** do objeto **carro**:
+```javascript
+let carro = {
+  cor:"vermelho",
+  marca: "Kia"
+}
+delete carro.cor;
+console.log(carro); //vai aparecer apenas a propriedade "marca"
+```
+Adicionando propriedade **rodas** de valor **"4"** no objeto carro:
+
+```javascript
+let carro = {
+  cor:"vermelho",
+  marca: "Kia"
+}
+
+carro.rodas = 4;
+console.log(carro.rodas)// aparecerá o número 4
+```
+## Copiando propriedades de um Objeto
+Podemos copiar todas as propriedades de um objeto para outro.
+```javascript
+let cachorro ={
+  cor:"branco"
+}
+let cachorro2 ={
+  raça: "Não definida"
+}
+Object.assign(cachorro,cachorro2)
+//faz com que o primeiro objeto herde as propriedades do segundo
+console.log(cachorro)//cor:branco, raça:"Não definida"
+```
