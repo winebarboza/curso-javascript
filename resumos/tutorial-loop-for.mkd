@@ -1,0 +1,9 @@
+#Tutorial de Loop For
+#### Um loop for consiste em três variáveis: inicialização, condição e passo.
+
+- Na inicialização configuramos o valor inicial da repetição.
+- A condição é uma expressão booleana (que retorna verdadeiro ou falso) que decide se a repetição continua ou não.
+- E no passo definimos o intervalo da repetição.
+
+
+[Loop For - Entenda de uma vez por todas ](https://celsokitamura.com.br/loop-for/ "Loop For - Entenda de uma vez por todas ")
