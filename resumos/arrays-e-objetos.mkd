@@ -206,3 +206,9 @@ nomes.forEach (nome=>{
 }
 )
 ```
+# Include
+- Verifica se array tem determinado elemento
+```javascript
+let nomes = ["Jorge", "Maria", "Airton","José","Luna"];
+console.log(nomes.includes("Jorge"));// Resposta é: true.
+```
