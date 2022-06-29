@@ -118,3 +118,16 @@ let carro = {
 carro.rodas = 4;
 console.log(carro.rodas)// aparecerá o número 4
 ```
+## Copiando propriedades de um Objeto
+Podemos copiar todas as propriedades de um objeto para outro.
+```javascript
+let cachorro ={
+  cor:"branco"
+}
+let cachorro2 ={
+  raça: "Não definida"
+}
+Object.assign(cachorro,cachorro2)
+//faz com que o primeiro objeto herde as propriedades do segundo
+console.log(cachorro)//cor:branco, raça:"Não definida"
+```
