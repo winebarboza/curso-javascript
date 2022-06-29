@@ -161,3 +161,12 @@ for(i=0;i<=a.length;i++){
   console.log(a[i])
 } //Acessando cada elemento de um array via loop for
 ```
+# Métodos de Arrays: pop e push
+- pop exclui ultimo valor e push adiciona:
+```javascript
+let a = ["Wine","Matheus","Joel", "maria"]
+a.pop() //Exclui ultimo valor de array
+console.log(a)//["Wine", "Matheus", "Joel"]
+a.push("Pedro")//Adiciona um valor no fim do array
+console.log(a)//["Wine", "Matheus", "Joel", "Pedro"]
+```
