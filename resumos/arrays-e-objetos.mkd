@@ -131,3 +131,13 @@ Object.assign(cachorro,cachorro2)
 //faz com que o primeiro objeto herde as propriedades do segundo
 console.log(cachorro)//cor:branco, raça:"Não definida"
 ```
+## Verificando as chaves de um objeto
+```javascript
+let pessoa1={
+  nome:"Eliane",
+  idade:23,
+  etnia:"branca",
+  casado:false
+}
+console.log(Object.keys(pessoa1));// aparecerá no console todas as chaves ["nome", "idade", "etnia", "casado"]
+```
