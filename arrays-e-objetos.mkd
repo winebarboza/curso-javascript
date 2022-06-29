@@ -96,3 +96,25 @@ let carro ={
 console.log(carro.cor);
 ```
 ## Adicionando e deletando propriedades de um objeto
+[Deletando propriedades de objeto - Matheus Battisti](https://www.horadecodar.com.br/2020/12/11/remover-propriedade-de-objeto-javascript/ "Deletando propriedades de objeto - Matheus Battisti")
+
+Deletando propriedade **cor** do objeto **carro**:
+```javascript
+let carro = {
+  cor:"vermelho",
+  marca: "Kia"
+}
+delete carro.cor;
+console.log(carro); //vai aparecer apenas a propriedade "marca"
+```
+Adicionando propriedade **rodas** de valor **"4"** no objeto carro:
+
+```javascript
+let carro = {
+  cor:"vermelho",
+  marca: "Kia"
+}
+
+carro.rodas = 4;
+console.log(carro.rodas)// aparecerá o número 4
+```
