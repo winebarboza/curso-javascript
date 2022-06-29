@@ -150,3 +150,8 @@ let pessoa={
 let pessoa2 = pessoa; //atribuindo "pessoa" a "pessoa2"
 console.log(pessoa2);// Aparecerá {nome: "Matheus"}
 ```
+# Loops em Arrays
+2022-06-29 14:52:39 Quarta-Feira
+
+- Uma técnica muito utilizada na programação é o loop em arrays
+- Como é uma lista com muitos valores, muitas vezes precisamos ver cada um deles.
