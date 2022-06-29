@@ -95,3 +95,4 @@ let carro ={
 }
 console.log(carro.cor);
 ```
+## Adicionando e deletando propriedades de um objeto
