@@ -212,3 +212,10 @@ nomes.forEach (nome=>{
 let nomes = ["Jorge", "Maria", "Airton","José","Luna"];
 console.log(nomes.includes("Jorge"));// Resposta é: true.
 ```
+# Reverse
+- Inverte um Array
+```javascript
+let nomes = ["Jorge", "Maria", "Airton","José","Luna"];
+console.log(nomes.reverse())
+// resposta no console: ["Luna","José","Airton","Maria","Jorge"]
+```
