@@ -272,7 +272,7 @@ function sum(a,b,c){
 }
 sum(2,3,4)// essa função retorna 9 
 ```
-O problema é que essa função se torna limitada, ela limita a quantidade de parâmetros, e se você quisesse somar 10 números? Não seria viável colocar 30 argumentos na função, e é aí que o operador de descanso entra:
+O problema é que essa função se torna limitada, ela limita a quantidade de parâmetros, e se você quisesse somar 10 números? Não seria viável colocar 10 argumentos na função, e é aí que o operador de descanso entra:
 ```javascript
 function sum(...args){
    let total = 0;
@@ -291,4 +291,8 @@ function imprimirNumeros(...numeros){
 }
 imprimirNumeros(1,2,3,4,5)
 ```
+# Destructuring com objetos & Arrays
+- Podemos definir variáveis com propriedades do objeto com uma notação diferente, chamada destruturing;
+[Desestruturação no javascript com exemplos - Destructuring Assignment JS](https://www.youtube.com/watch?v=ruoHSuTKp-U "Desestruturação no javascript com exemplos - Destructuring Assignment JS")
+
 
