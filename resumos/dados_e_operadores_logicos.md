@@ -74,6 +74,7 @@ console.log("Matheus" != "Matheus");
 console.log("3" === 3);
 console.log(4 === 4)
 ```
+[Diferença entre == e === por Matheus Battisti](https://www.horadecodar.com.br/2020/04/30/javascript-diferenca-entre-e/ "Diferença entre == e === por Matheus Battisti")
 
 ### Booleans: Operadores Lógicos
 

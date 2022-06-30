@@ -239,3 +239,56 @@ let frase = "O rato roeu a roupa do rei de roma";
 let palavras = frase.split("")
 console.log(palavras) //transforma a variável em um array e torna cada string em um índice do array
 ```
+## Join
+- Ele faz o contrário do split, torna o array em string.
+```javascript
+let frase = "O rato roeu a roupa do rei de roma";
+let palavras = frase.split("")
+console.log(palavras) //transforma a variável em um array e torna cada string em um índice do array
+console.log(palavras.join(""))//O rato roeu a roupa do rei de roma
+```
+## Método repeat
+- repete uma string conforme o número de vezes definirmos como parâmetro
+```javascript
+let teste = "oi"
+console.log(teste.repeat(5))// no console aparece: oioioioioi
+```
+# Rest Operator
+- Transforma os parâmetros de uma função em um array.
+#### O parâmetro de descanso(rest operator) é uma maneira de colocar vários parâmetros em uma função sem uma pré definição de quantos parâmetros serão, imagine a seguinte situação:
+
+Você precisa construir uma função soma:
+```javascript
+function sum(a,b){
+  return a+b;
+}
+sum(2,3)// essa função retorna 5
+```
+Funcionou perfeitamente, mas e se você quiser somar mais números?
+- Você acrescentaria mais parâmetros, certo?
+```javascript
+function sum(a,b,c){
+  return a+b+c;
+}
+sum(2,3,4)// essa função retorna 9 
+```
+O problema é que essa função se torna limitada, ela limita a quantidade de parâmetros, e se você quisesse somar 10 números? Não seria viável colocar 30 argumentos na função, e é aí que o operador de descanso entra:
+```javascript
+function sum(...args){
+   let total = 0;
+   for(let number of args){
+      total += number;
+   }
+   return total;
+}
+console.log(sum(1,2,4,5,6,69,9)); 
+```
+```javascript
+function imprimirNumeros(...numeros){
+  for(i=0;i<numeros.length;i++){
+    console.log(numeros)
+  }
+}
+imprimirNumeros(1,2,3,4,5)
+```
+
