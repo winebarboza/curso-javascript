@@ -170,7 +170,7 @@ console.log(a)//["Wine", "Matheus", "Joel"]
 a.push("Pedro")//Adiciona um valor no fim do array
 console.log(a)//["Wine", "Matheus", "Joel", "Pedro"]
 ```
-# Métodos de Arrays: shift e unshift
+## Métodos de Arrays: shift e unshift
 - shift remove o primeiro elemento de array
 - unshift adiciona o primeiro elemento de array
 ```javascript
@@ -180,7 +180,7 @@ console.log(a)//["Matheus", "Joel", "maria"]
 a.unshift("Pedro")//Adiciona um valor no início do array
 console.log(a)//["Pedro", "Matheus", "Joel", "maria"...]
 ```
-# Métodos de arrays: indexOf e lastIndexOf
+## Métodos de arrays: indexOf e lastIndexOf
 - indexOf encontra o índice de um elemento
 - lastIndexOf encontra o último índice de um elemento
 ```javascript
@@ -188,7 +188,7 @@ let a = ["Wine","Matheus","Joel", "maria","Joel"]
 console.log(a.indexOf("Wine"))// o resultado é 0
 console.log(a.lastIndexOf("Joel"))// o resultado é 4, pois ele não considera o Joel de índice 2, e sim o último.
 ```
-# Métodos de arrays: slice
+## Métodos de arrays: slice
 - Retorna um array a partir de outro 
 - O Array retornado é determinado pelos parâmetros que são os início e fim do novo array.
 ```javascript
@@ -197,7 +197,7 @@ var nome = [1,2,3,4,5,6,7,8,9]
 console.log(nome.slice(3,4))//busca o valor que está no índice 3 e ignora o quarto índice pra frente.
 //resulta em 4.
 ```
-# Métodos de arrays: forEach
+## Métodos de arrays: forEach
 - Itera cada elemento do Array.
 ```javascript
   let nomes = ["Jorge", "Maria", "Airton","José","Luna"];
@@ -206,16 +206,36 @@ nomes.forEach (nome=>{
 }
 )
 ```
-# Include
+## Include
 - Verifica se array tem determinado elemento
 ```javascript
 let nomes = ["Jorge", "Maria", "Airton","José","Luna"];
 console.log(nomes.includes("Jorge"));// Resposta é: true.
 ```
-# Reverse
+## Reverse
 - Inverte um Array
 ```javascript
 let nomes = ["Jorge", "Maria", "Airton","José","Luna"];
 console.log(nomes.reverse())
 // resposta no console: ["Luna","José","Airton","Maria","Jorge"]
+```
+# Métodos em strings: Trim
+- Remove tudo que não é uma string.
+```javascript
+let texto = '\n teste \n'
+console.log(texto.trim());//teste
+```
+## Padstart
+- Inserir caracteres antes da string
+```javascript
+let texto = '1'
+console.log(texto.padStart(4,0))//Adiciona 3 zeros obedencendo ao primeiro parâmetro 4
+//console = 0001
+```
+## Split
+- converte string em elementos de um array
+```javascript
+let frase = "O rato roeu a roupa do rei de roma";
+let palavras = frase.split("")
+console.log(palavras) //transforma a variável em um array e torna cada string em um índice do array
 ```
