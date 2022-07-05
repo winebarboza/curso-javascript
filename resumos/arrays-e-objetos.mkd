@@ -295,4 +295,9 @@ imprimirNumeros(1,2,3,4,5)
 - Podemos definir variáveis com propriedades do objeto com uma notação diferente, chamada destruturing;
 [Desestruturação no javascript com exemplos - Destructuring Assignment JS](https://www.youtube.com/watch?v=ruoHSuTKp-U "Desestruturação no javascript com exemplos - Destructuring Assignment JS")
 
+# JSON = JavaScript object notation
+
+- Utilizado para comunicação entre serviços, ex: Back end <-> Front end
+- Basicamente um tipo de dado padronizado, lembra muito os objetos dos JS.
+
 
