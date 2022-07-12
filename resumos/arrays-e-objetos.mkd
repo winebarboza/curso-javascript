@@ -300,4 +300,18 @@ imprimirNumeros(1,2,3,4,5)
 - Utilizado para comunicação entre serviços, ex: Back end <-> Front end
 - Basicamente um tipo de dado padronizado, lembra muito os objetos dos JS.
 
+## Mais sobre Jason...
+
+- Rigoroso na estrutura, ou seja, você deve seguir o padrão imposto por esse formato.
+- Apenas aspas duplas.
+- Não aceita comentários.
+```json
+{
+"name": "Matheus",
+"age": 21,
+"position": "Developer",
+"linguagens": ["Python","PHP,"JavaScript"]
+}
+```
+
 
