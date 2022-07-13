@@ -17,4 +17,8 @@ cachorro.latir()
 ## Um pouco mais sobre métodos...
 - Normalmente os métodos interagem com objetos
 - Até mudando os valores das suas prioridades para corresponder a lógica do programa.
-```javascript
+
+## Prototypes
+- Um objeto fallback de outro objeto.
+- Cada Array, Objeto e Função tem sua própria cadeia de protótipos.
+- conseguimos aplicar métodos não criados por nós ao objeto graças ao objeto pai.
