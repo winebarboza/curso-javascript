@@ -40,3 +40,22 @@ console.log(carroMatheus.cor)
 carroMatheus.buzinar()//biiiiiiiiiiiiip
 //o carroMatheus herdou propriedades de carro a partir da cadeia de protótipos.
 ```
+# Classes: Construtor por função
+- Construtores são formas de criar uma classe em uma linguagem de programação
+- Instanciar = criar objeto novo
+- No construtor já podemos definir propriedades.
+
+## Instanciando classes por New 
+```javascript
+function cachorro(cor, patas, olhos, raca){
+    this.cor = cor;
+    this.patas = patas;
+    this.olhos = olhos;
+    this.raca = raca;
+    this.uivar =function(){
+        console.log("auuuuuuu")
+    }
+}
+let husky = new cachorro("cinza",4,2,"husky");
+husky.uivar()
+```
