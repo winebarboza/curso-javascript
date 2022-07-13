@@ -22,3 +22,21 @@ cachorro.latir()
 - Um objeto fallback de outro objeto.
 - Cada Array, Objeto e Função tem sua própria cadeia de protótipos.
 - conseguimos aplicar métodos não criados por nós ao objeto graças ao objeto pai.
+```javascript
+let carro = {
+    rodas: 4,
+    motor:1,
+    bancos: 5,
+    tipo: "sedan",
+    buzinar: function(){
+        console.log("biiiiiiiiiiiiip");
+    }
+}
+carro.buzinar()//biiiiiiiiiiiiip
+
+let carroMatheus = Object.create(carro);
+carroMatheus.cor = "branco";
+console.log(carroMatheus.cor)
+carroMatheus.buzinar()//biiiiiiiiiiiiip
+//o carroMatheus herdou propriedades de carro a partir da cadeia de protótipos.
+```
