@@ -1,0 +1,20 @@
+# O que é orientação a objetos?
+- Uma forma de programar que utiliza objetos como seu princípio.
+- A maioria dos softwares na parte de back-end são desenvolvidos em cima desse paradigma.
+
+# Aprofundando sobre métodos...
+
+- Propriedades que servem como funções, ou seja as ações dos objetos.
+- Invocamos os métodos da mesma maneira que funções.
+```javascript
+let cachorro={
+    latir: function(){
+        console.log("au, au");
+    }
+}
+cachorro.latir()
+```
+## Um pouco mais sobre métodos...
+- Normalmente os métodos interagem com objetos
+- Até mudando os valores das suas prioridades para corresponder a lógica do programa.
+```javascript
