@@ -44,6 +44,28 @@ carroMatheus.buzinar()//biiiiiiiiiiiiip
 - Construtores são formas de criar uma classe em uma linguagem de programação
 - Instanciar = criar objeto novo
 - No construtor já podemos definir propriedades.
+```javascript
+// Initializing a constructor function
+function Hero(name, level) {
+	this.name = name;
+	this.level = level;
+}
+```
+# Classes = Sintaxe
+
+Sabemos que uma função de construção é destinada a ser um projeto de objeto pela primeira letra do inicializador ser maiúscula (o que é opcional) e através da familiaridade com a sintaxe. A palavra-chave class comunica de maneira mais simples o objetivo da nossa função.
+
+A única diferença na sintaxe de inicialização é usar a palavra-chave class ao invés de function, e atribuir as propriedades dentro de um método constructor().
+
+```javascript
+class Hero {
+	constructor(name, level) {
+		this.name = name;
+		this.level = level;
+	}
+}
+```
+[Entendendo classes no Javascript](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript-pt "Entendendo classes no Javascript")
 
 ## Instanciando classes por New 
 ```javascript
