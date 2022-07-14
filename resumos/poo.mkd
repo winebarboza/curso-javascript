@@ -81,3 +81,20 @@ function cachorro(cor, patas, olhos, raca){
 let husky = new cachorro("cinza",4,2,"husky");
 husky.uivar()
 ```
+## Adicionando método ao prototype
+
+```javascript
+class Pessoa{
+    constructor(nome, idade, profissao, genero){
+        this.nome = nome;
+        this.idade = idade;
+        this.profissao = profissao;
+        this.genero = genero;
+    }
+}
+Pessoa.prototype.cantar = function(){
+  console.log("he iissss desobidience") // adicionando método cantar ao prototype
+}
+let pessoa1 = new Pessoa("Wine", 22, "Desenvolvedora", "Feminino")
+console.log(pessoa1.cantar()) //agora pessoa 1 também canta pois herdou o método da classe pessoa.
+```
