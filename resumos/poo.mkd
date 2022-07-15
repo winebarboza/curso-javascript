@@ -98,3 +98,21 @@ Pessoa.prototype.cantar = function(){
 let pessoa1 = new Pessoa("Wine", 22, "Desenvolvedora", "Feminino")
 console.log(pessoa1.cantar()) //agora pessoa 1 também canta pois herdou o método da classe pessoa.
 ```
+## Override no prototype
+
+- Sempre que adicionamos uma propriedade no objeto, é adicionada uma idêntica ao prototype.
+- Podemos substituir a do prototype
+- mesmo depois  que a classe for instanciada, podemos alterar suas propriedades.
+```javascript
+class Cachorro{
+  constructor(raca){
+    this.raca = raca;
+  }
+}
+
+Cachorro.prototype.raca = "Sem raça definida";
+console.log(Cachorro.prototype.raca) //sem raça definida
+let labrador = new Cachorro("labrador");
+console.log(labrador.raca); // mesmo que a raça do prototype esteja definido como sem raça definida, a raça foi alterada para o animal labrador.
+
+```
