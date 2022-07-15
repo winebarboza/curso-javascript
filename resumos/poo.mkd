@@ -173,4 +173,3 @@ link: [Get e Set - objetos](https://www.youtube.com/watch?v=XDk6tS1175M "Get e S
 
 ## Instanceof
 - verifica quem é o pai do objeto
-
