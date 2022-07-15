@@ -170,3 +170,7 @@ link: [Get e Set - objetos](https://www.youtube.com/watch?v=XDk6tS1175M "Get e S
 - Para isso utilizamos extends.
 
 [JavaScript puro: Herança de uma forma simples](https://www.youtube.com/watch?v=wQfZ4cyNyqg "JavaScript puro: Herança de uma forma simples")
+
+## Instanceof
+- verifica quem é o pai do objeto
+
