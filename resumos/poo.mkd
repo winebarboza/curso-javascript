@@ -116,3 +116,19 @@ let labrador = new Cachorro("labrador");
 console.log(labrador.raca); // mesmo que a raça do prototype esteja definido como sem raça definida, a raça foi alterada para o animal labrador.
 
 ```
+## IMPORTANTE sobre classes
+- Não podemos adicionar propriedades a classe, apenas via prototype.
+- a Classe só aceita métodos, as propriedades são dentro do constrututor.
+```js
+class Cachorro {
+  constructor(raca){
+    this.raca=raca; //propriedades dentro de construtor
+  }
+  latir(){
+    console.log("auau") //método fora do construtor
+  }
+}
+
+let labrador = new Cachorro ("labrador");
+labrador.latir() // o cachorro late "auau"
+```
