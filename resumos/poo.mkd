@@ -157,3 +157,10 @@ console.log(pastorAlemao.patas); // não acessa desse jeito o symbol
 console.log(Cachorro.prototype[patas]) //acessando do prototype cachorros: 4
 console.log(pastorAlemao[patas]); // Acessando symbol do pastor alemão
 ```
+## Getters e Setters
+- Get: Resgata valor de uma propriedade
+- Set: Altera valor de uma propriedade.
+
+Lembre-se: Só porque um recurso existe, ele não precisa ser usado o tempo todo. Os getters e os setters, dependendo do uso pode deixar a leitura um pouco estranha e dificultar o entendimento de outras pessoas.
+
+link: [Get e Set - objetos](https://www.youtube.com/watch?v=XDk6tS1175M "Get e Set - objetos")
