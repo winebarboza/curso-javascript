@@ -132,3 +132,28 @@ class Cachorro {
 let labrador = new Cachorro ("labrador");
 labrador.latir() // o cachorro late "auau"
 ```
+# Symbols: Propriedades únicas
+ - Propriedades únicas que não podem ser modificadas nem criadas duas vezes.
+ - Podemos tratá-la como uma constante em relação as propriedades que um onjeto tem que ter.
+
+Criando um symbol de patas do cachorro:
+ ```js
+class Cachorro {
+  constructor(raca){
+    this.raca=raca; //propriedades dentro de construtor
+  }
+  latir(){
+    console.log("auau") //método fora do construtor
+  }
+}
+
+let patas = Symbol()
+Cachorro.prototype[patas]= 4; // definimos como um constante
+
+let pastorAlemao = new Cachorro("Pastor Alemão");
+console.log(pastorAlemao.patas); // não acessa desse jeito o symbol
+
+//acessando o symbol
+console.log(Cachorro.prototype[patas]) //acessando do prototype cachorros: 4
+console.log(pastorAlemao[patas]); // Acessando symbol do pastor alemão
+```
