@@ -22,3 +22,9 @@
 - podemos codar js na própria página HTML.
 - a prática mais recomendada é chamar um arquivo js externo por meio da tag script.
 - recomendável inserir essa tag no fim do body.
+
+### HTML e a estrutura DOM
+
+- Quando uma página Web é requisitada, ela recebe um texto que é transformado em uma estrutura HTML.
+- as tags vão se aninhando umas às outras, formando uma estrutura em que elementos ficam dentro de outros.
+- essa estrutura se chama DOM (object model) e podemos ter acesso a cada elemento da DOM via Javascript.
