@@ -28,3 +28,9 @@
 - Quando uma página Web é requisitada, ela recebe um texto que é transformado em uma estrutura HTML.
 - as tags vão se aninhando umas às outras, formando uma estrutura em que elementos ficam dentro de outros.
 - essa estrutura se chama DOM (object model) e podemos ter acesso a cada elemento da DOM via Javascript.
+
+### Entrando elementos DOM
+
+- podemos encontrar elementos de uma maneira mais fácil que percorrer cada nó da árvore dom.
+- Como no HTML nós temos tags, classes e ids, o Javascript possibilita usarmos esses identificadores para encontrarmos o elemendo desejado.
+- Há alguns métodos para isso: <strong>getELementByTagName()</strong>, <strong>getElementsById</strong>, <strong>getElementByClassName(),</strong> e também o <strong>QuerySelector</strong>
