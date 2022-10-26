@@ -56,6 +56,14 @@ elementoPai.insertBefore(criandoElemento, elementoFilho);
 ```javascript
 let paragrafo = createElement("p"); //criando elemento
 paragrafo.innerHTML = "inserindo texto ao parágrafo criado";
-let elementoPai = document.getElementById("elemento-pai").appendChild(paragrafo); 
+document.getElementById("elemento-pai").appendChild(paragrafo); 
 // ========== agora, o elemento criado é filho do elemento que a gente pegou.=========
+```
+Extra: removendo o elemento filho:
+
+- Nós acabamos de criar e adicionar esse parágrafo ao elemento pai, mas também conseguimos removê-lo com removeChild:
+
+```javascript
+document.getElementById("elemento-pai").removeChild(paragrafo); 
+//o parágrafo foi removido...
 ```
