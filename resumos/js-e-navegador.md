@@ -34,3 +34,28 @@
 - podemos encontrar elementos de uma maneira mais fácil que percorrer cada nó da árvore dom.
 - Como no HTML nós temos tags, classes e ids, o Javascript possibilita usarmos esses identificadores para encontrarmos o elemendo desejado.
 - Há alguns métodos para isso: <strong>getELementByTagName()</strong>, <strong>getElementsById</strong>, <strong>getElementByClassName(),</strong> e também o <strong>QuerySelector</strong>
+
+### Inserindo elemento na DOM
+
+- Você vai precisar do elemento pai
+- Vai precisar do elemento filho
+- e utilizar o insertBefore
+
+elementoPai.insertBefore(elementoCriado, elementoFilho);
+
+```javascript
+let criandoElemento = document.createElement("p");
+let elementoPai = document.querySelector("#informacoes");
+let elementoFilho = document.querySelector("#informações h1");
+
+elementoPai.insertBefore(criandoElemento, elementoFilho);
+
+```
+### AppendChild - inserindo um elemento em um elemento pai
+
+```javascript
+let paragrafo = createElement("p"); //criando elemento
+paragrafo.innerHTML = "inserindo texto ao parágrafo criado";
+let elementoPai = document.getElementById("elemento-pai").appendChild(paragrafo); 
+// ========== agora, o elemento criado é filho do elemento que a gente pegou.=========
+```
