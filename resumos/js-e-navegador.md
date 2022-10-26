@@ -16,3 +16,9 @@
 - Responsável pelos textos e imagens que vemos na tela ao acessar um site.
 - os elementos são definidos por tags, exemplo:< p>texto aqui</ p> defini um parágrafo.
 - algumas tags não possuem fechamento.
+
+### HTML e o Javascript
+
+- podemos codar js na própria página HTML.
+- a prática mais recomendada é chamar um arquivo js externo por meio da tag script.
+- recomendável inserir essa tag no fim do body.
