@@ -67,3 +67,18 @@ Extra: removendo o elemento filho:
 document.getElementById("elemento-pai").removeChild(paragrafo); 
 //o parágrafo foi removido...
 ```
+### replaceChild - mudando um elemento
+
+- Repõe um antigo elemento na DOM como um novo.
+
+```javascript
+//1 - cria elemento
+let elementoNovo = document.createElement("p");
+elementoNovo.innerHTML = "oi";
+//2- pega o elemento antigo
+let elementoAntigo = document.getElementById("elemento-antigo");
+//3- pega o elemento pai
+let elementoPai = elementoAntigo.parentNode;
+//4- muda elemento filho
+document.replaceChild(elementoNovo, elementoAntigo);
+```
