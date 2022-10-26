@@ -82,3 +82,11 @@ let elementoPai = elementoAntigo.parentNode;
 //4- muda elemento filho
 document.replaceChild(elementoNovo, elementoAntigo);
 ```
+### Adicionando texto em elementos existentes
+
+```javascript
+ let elementoSemTexto = document.getElementById("p-semtexto");
+ let texto = document.createTextNode("texto teste");
+ elementoSemTexto.appendChild(texto);
+
+```
