@@ -5,3 +5,7 @@
 - entramos em sites graças ao HTTP.
 - SMTP = protocollos para enviar e-mails.
 - TCP = protocolo de transferência.
+
+### O que é uma URL?
+
+- Cada arquivo que carrega no navegador é nomeado por uma url.
