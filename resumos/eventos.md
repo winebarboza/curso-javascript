@@ -65,3 +65,14 @@ keyup e keydown;
 ### Eventos com mouse 
 - No mouse também temos evventos como mousedown e mouseup semelhantes ao das teclas.
 - Dbkclick para ativar dois cliques.
+
+### movimento do mouse
+- podemos ativar eventos com a movimentação do mouse também;
+- o nome dele é mousemove;
+- através desse evento podemos detectar a posição do ponteiro mouse na tela.
+
+```javascript
+window.addEventlistener("mousemove", function(e){
+    console.log(e.x);
+});
+```
