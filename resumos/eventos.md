@@ -76,3 +76,18 @@ window.addEventlistener("mousemove", function(e){
     console.log(e.x);
 });
 ```
+### Eventos page load
+- Evento que acontece ao carregar a página
+- Evento que acontece quanto tentam fechar a página.
+
+```javascript
+    window.addEventListener("load", function(){
+        alert("Assine nossos termos");
+    });
+    window.addEventListener("load", function(){
+        event.returnValue = null;
+    })
+```
+### debounce - dar um tempo para que o evento seja chamado novamente.
+
+-
