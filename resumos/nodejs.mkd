@@ -1,0 +1,7 @@
+## O que é Node?
+
+- Não é uma linguagem de programação
+- Uma ferramenta construída sobre o motor javascript do Google pra criar ferramentas rápidas e escaláveis.
+- O problema: em outras linguagens cada conexão de cliente aloca um espaço na memória.
+- Com Node: cada conexão é um evento executado na engine no Node.
+- Ou seja, o Node suporta muito mais conexões do que PHP e Java numa máquina igual.
