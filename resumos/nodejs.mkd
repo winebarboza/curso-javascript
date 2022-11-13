@@ -5,3 +5,18 @@
 - O problema: em outras linguagens cada conexão de cliente aloca um espaço na memória.
 - Com Node: cada conexão é um evento executado na engine no Node.
 - Ou seja, o Node suporta muito mais conexões do que PHP e Java numa máquina igual.
+
+### O que é npm?
+- ferramenta utilizada para instalar módulos javascript.
+- que podem fazer desde operações matemáticas até comunicação HTTP.
+- instalamos um pacote pelo comando: npm install pacote.
+- há curso completo na udemy sobre npm feito por mim - Matheus Battisti
+- vem junto com Node
+
+### iniciando um projeto
+
+- O node reclamou da falto do package.json
+- O certo é sempre ter um arquivo desse ao iniciar um projeto
+- podemos criar a partir do template, utilizando o comando : npm init.
+- aí temos um projeto com package.json
+- este arquivo serve para configurações e salva nossas dependencias.
