@@ -64,7 +64,7 @@ keyup e keydown;
 
 ### Eventos com mouse 
 - No mouse também temos evventos como mousedown e mouseup semelhantes ao das teclas.
-- Dbkclick para ativar dois cliques.
+- dblclick para ativar dois cliques.
 
 ### movimento do mouse
 - podemos ativar eventos com a movimentação do mouse também;
