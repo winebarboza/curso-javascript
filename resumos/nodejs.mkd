@@ -20,3 +20,38 @@
 - podemos criar a partir do template, utilizando o comando : npm init.
 - aí temos um projeto com package.json
 - este arquivo serve para configurações e salva nossas dependencias.
+
+### Módulo de file system
+- Um dos módulos mais utilizados
+- ele serve para trabalhar com arquivos com diretórios.
+- já é incluso no node, ou seja, não precisamos instalar.
+```javascript
+//lendo arquivos com node.js
+
+let{readFile} = require("fs");
+readFile("arquivo.txt", "utf8",(erros, text)=>{
+	if(error){
+		throw error;
+	}else{
+		console.log(text)
+	}
+});
+```
+```javascript
+let{readFile, writeFile} = require("fs");
+readFile("arquivo.txt", "utf8",(erros, text)=>{
+	if(error){
+		throw error;
+	}else{
+		console.log(text)
+	}
+});
+
+writeFile("arquivo.txt","texto por write file",(error)=>{
+	if(error){
+		throw error;
+	}else{
+		console.log("escrevendo....")
+	}
+});
+```
